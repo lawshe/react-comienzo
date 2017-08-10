@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import ReactGA from 'react-ga';
 import Intro from 'prtls/Intro.js';
 import glob from 'style';
 /**
@@ -19,7 +20,8 @@ const mapStateToProps = (state) => {
 class Home extends React.Component {
 
   componentDidMount() {
-    $('.collapsible').collapsible();
+    ReactGA.set({ page: window.location.pathname });
+    ReactGA.pageview(window.location.pathname);
   }
 
   render() {
