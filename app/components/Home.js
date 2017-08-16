@@ -7,7 +7,7 @@ import glob from 'style';
   *
   * Homepage
   *
-  * Uses accessibility preferences set in state
+  * User accessibility preferences set in state
   *
 */
 
