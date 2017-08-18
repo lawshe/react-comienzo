@@ -27,7 +27,7 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <PageHeader parallax={this.props.parallax} header="Header" />
+        <PageHeader key={this.props.parallax} parallax={this.props.parallax} header="Header" />
         <div className={`section ${glob.no_pad} green darken-4`}>
           <div className="container">
             <div className={`row ${glob.no_margin}`}>
