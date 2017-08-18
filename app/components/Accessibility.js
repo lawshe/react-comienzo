@@ -45,7 +45,7 @@ class Accessibility extends React.Component {
 
     return (
       <div>
-        <PageHeader header="Accessibility" />
+        <PageHeader header="Accessibility" parallax={this.props.parallax} />
         <div className="section">
           <div className="container">
             <div className="row">

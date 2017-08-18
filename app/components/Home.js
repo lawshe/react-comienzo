@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import ReactGA from 'react-ga';
-import Intro from 'prtls/Intro.js';
+import PageHeader from 'prtls/PageHeader.js';
 import glob from 'style';
 /**
   *
@@ -27,7 +27,7 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <Intro parallax={this.props.parallax} />
+        <PageHeader parallax={this.props.parallax} header="Header" />
         <div className={`section ${glob.no_pad} green darken-4`}>
           <div className={`row ${glob.no_margin}`}>
             <div className={`col s12 light-green darken-4 ${glob.pad_lg}`}>
