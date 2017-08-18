@@ -214,8 +214,11 @@ nav {
 
 .parallax_container{
   height: auto!important;
-  min-height: 34vh;
+  min-height: 20vh;
   width: 100%;
+  h1 {
+    margin: 0;
+  }
 }
 
 .switch label input[type=checkbox]:checked+.lever{
