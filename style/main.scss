@@ -123,13 +123,6 @@ a:not(.btn){
   }
 }
 
-.card_in_card{
-  display: inline-block;
-  margin: $marginMD auto 1.46rem auto;
-  padding: $padMD;
-  width: auto;
-}
-
 .collapsible{
   border-left: 0;
   border-right: 0;
@@ -171,19 +164,6 @@ label{
   a{
     &:hover{
       color: $blueDark!important;
-    }
-  }
-}
-
-.med_bg{
-  h5{
-    color: $gray;
-  }
-
-  a:not(.btn){
-    color: $white!important;
-    &:hover{
-      color: $blueVeryLight!important;
     }
   }
 }
@@ -236,16 +216,6 @@ nav {
   height: auto!important;
   min-height: 34vh;
   width: 100%;
-}
-
-.shadow{
-  background: rgba(0, 0, 0, 0.5);
-  padding: $padSM;
-  width: 100%!important;
-}
-
-.source{
-  color: $blackLight;
 }
 
 .switch label input[type=checkbox]:checked+.lever{
