@@ -29,9 +29,11 @@ class Home extends React.Component {
       <div>
         <PageHeader parallax={this.props.parallax} header="Header" />
         <div className={`section ${glob.no_pad} green darken-4`}>
-          <div className={`row ${glob.no_margin}`}>
-            <div className={`col s12 light-green darken-4 ${glob.pad_lg}`}>
-              <h4 className="grey-text text-lighten-4" style={{ marginTop: '0' }}>Subheader</h4>
+          <div className="container">
+            <div className={`row ${glob.no_margin}`}>
+              <div className="col s12">
+                <h2 className="grey-text text-lighten-4">Subheader</h2>
+              </div>
             </div>
           </div>
         </div>
